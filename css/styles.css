@@ -1,0 +1,93 @@
+html {
+    padding: 0%;
+    margin: 0%;
+    border: 0px;
+    background-color: rgb(139, 191, 226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#demo {
+    color: black;
+  }
+
+  .test {
+    color: green;
+  }
+
+  h3 {
+    color: aqua;
+  }
+
+  form {
+    max-width: 350px;
+    margin: auto;
+    padding: 15px;
+    background-color: lavender;
+    border-radius: 10px;
+  }
+
+  form-label {
+    display:block;
+    margin-bottom: 10px;
+  }
+
+  form label span {
+    display: block;
+  }
+
+.logo {
+    border-radius: 40%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 8px solid rgb(255, 180, 172);
+    padding: 5px;
+}
+
+ol > h2 {
+    text-decoration: underline;
+}
+
+.coral {
+    color: lightcoral;
+    padding: 10px;
+    background-color: lavender;
+}
+
+.lavender {
+    color: lavender;
+    padding-left: 5px;
+    background-color: lightcoral;
+}
+
+ul {
+    color: cornflowerblue;
+    height: 100px;
+    width: 50%;
+    overflow: auto;
+}
+
+ol {
+    text-decoration:solid;
+    font-size: 12px;
+}
+
+input[type="text"] {
+    background-color: lavender;
+}
+
+button:hover {
+    background-color: lavender;
+}
+
+h2 + h3 {
+    background-color: lavender;
+    width: 50%;
+  }
+
+.background {
+  background-image: url("../images/2991500.png");
+  width: 600px;
+  height: 550px;
+  background-repeat: no-repeat;
+}
